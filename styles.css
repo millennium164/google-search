@@ -1,0 +1,61 @@
+#container {
+    display: flex;
+    align-items: center;
+    padding: 6px;
+    height: 60px;
+}
+
+#navbar {
+    display: inline-block;
+    height: 48px;
+    flex-grow: 1;
+}
+
+#right {
+    display: flex;
+    height: 48px;
+    float: right;
+    align-items: center;
+}
+
+#links {
+    display: block;
+}
+
+a {
+    display: inline-block;
+    padding: 15px;
+}
+
+h3 {
+    position: relative;
+    top: 100px;
+    text-align: center;
+}
+
+#form {
+    display: block;
+    box-sizing: border-box;
+    width: 500px;
+    height: 500px;
+    margin: auto;
+}
+
+#bar {
+    border: 1px solid #dfe1e5;
+    border-radius: 25px;
+}
+
+#div1 {
+    position: relative;
+    top: 200px;
+    width: 200px;
+    margin: auto;
+}
+
+#div2 {
+    position: relative;
+    display: block;
+    top: 250px;
+    margin: auto;
+}
