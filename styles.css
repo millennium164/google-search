@@ -91,6 +91,7 @@ form {
 #div2 {
     position: relative;
     display: block;
-    top: 250px;
+    padding: 20px;
     margin: auto;
+    text-align: center;
 }
