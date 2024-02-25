@@ -50,6 +50,14 @@ a {
     max-height: 290px;
 }
 
+#container2_ {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: calc(100% - 560px);
+    max-height: 50px;
+}
+
 #heading {
     position: relative;
     margin-top: auto;
@@ -58,7 +66,7 @@ a {
 
 #container3 {
     display: block;
-    padding: 20px;
+    padding: 40px;
     box-sizing: border-box;
 }
 
@@ -74,7 +82,13 @@ form {
     width: auto;
 }
 
-#bar {
+#searchblock_ {
+    display: block;
+    position: relative;
+    width: 100%;
+}
+
+.bar {
     display: flex;
     position: relative;
     min-height: 22px;
@@ -94,4 +108,109 @@ form {
     padding: 20px;
     margin: auto;
     text-align: center;
+}
+
+#heading2 {
+    position: relative;
+    display: inline-block;
+}
+
+h3 {
+    position: relative;
+    float: left;
+}
+
+#questions {
+    display: block;
+    position: relative;
+}
+
+.qt {
+    display: inline-block;
+    float: left;
+    width: 16%;
+    height: 42px;
+    font-size: 15px;
+    vertical-align: middle;
+}
+
+.qt2 {
+    display: table-cell;
+    vertical-align: middle;
+    height: 30px;
+    width: 100%;
+    position: relative;     
+}
+
+.qt label {
+    vertical-align: baseline;
+}
+
+.qb {
+    display: inline-block;
+    float: left;
+    min-width: 167px;
+    min-height: 42px;
+    vertical-align: middle;
+    width: 50%
+}
+
+.qb2 {
+    display: block;
+    vertical-align: baseline;
+    height: 29px;
+    padding-right: 16px;
+}
+
+.bar_ {
+    display: flex;
+    position: relative;
+    height: 30px;
+    background: #fff;
+    box-shadow: none;
+    margin: 0 auto;
+    width: 100%;
+    border-radius: 1px;
+    border: 1px solid #d9d9d9;
+    border-top: 1px solid #c0c0c0;
+}
+
+.div {
+    clear: both;
+}
+
+#submit {
+    clear: both;
+}
+
+#block {
+    float: left;
+    display: inline-block;
+    min-width: 167px;
+    width: 16%;
+    height: 42px;
+    line-height: 16px;
+    vertical-align: middle;
+}
+
+#bs {
+    float: left;
+    display: inline-block;
+    min-width: 167px;
+    min-height: 41px;
+    vertical-align: middle;
+    width: 50%;
+}
+
+#bs input {
+    float: right;
+    margin: 10px;
+    padding: 12px;
+    background-color: #4d90fe;
+    color: white;
+    border: 1px solid #3079ed;
+    box-shadow: none;
+    border-radius: 2px;
+    font-size: 11px;
+    font-weight: bold;
 }
